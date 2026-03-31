@@ -1,0 +1,21 @@
+name: frontend
+description: Task Manager App
+
+version: 1.0.0
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http:
+  provider:
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
