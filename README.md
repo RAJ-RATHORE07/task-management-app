@@ -90,3 +90,9 @@ It allows users to manage tasks with dependencies, search, filtering, and a clea
 cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
+###  🔹Frontend
+
+cd frontend
+flutter pub get
+flutter run -d chrome
